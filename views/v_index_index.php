@@ -1,11 +1,9 @@
-<p>
-	Hello World! You have successfully spawned a new application.
-</p>
+<div class='col-md-8'>
+	<h2 class='h2'>Bloody Mary Blog</h2>
+	<?=$loginContent;?>						
+</div>
 
-<p>
-	This message is being triggered via the c_index.php controller, within the index() method.
-</p>
+<div class='col-md-4'>
 
-<p>
-	<strong>Since everything is in working order, you should now delete <?php echo APP_PATH?>diagnostics.php</strong>
-</p>
+	
+</div>
