@@ -56,11 +56,11 @@
 						<ul class='dropdown-menu'>
 							<li><a href='/users/profile'><span class='glyphicon glyphicon-user'></span> View My Profile</a></li>
 							<li class='divider'></li>
-							<li><a href='/reviews/add'><span class='glyphicon glyphicon-comment'></span> Post</a></li>
+							<li><a href='/reviews/add'><span class='glyphicon glyphicon-comment'></span> Add Review</a></li>
 							<li class='divider'></li>
 							<li><a href='/reviews'><span class='glyphicon glyphicon-th-list'></span> Reviews</a></li>
 							<li class='divider'></li>
-							<li><a href='/reviews/users'><span class='glyphicon glyphicon-link'></span> Connect</a></li>
+							<li><a href='/reviews/users'><span class='glyphicon glyphicon-link'></span> Contributors</a></li>
 					
 						</ul>
 					</li>
@@ -69,7 +69,7 @@
 						
 					<?php else: ?>
 					<!-- Menu for users who are not logged in -->
-					
+	
 					<li><a href='/'>Home</a></li>
 					<li><a href='/users/signup'>Register</a></li>					
 					<?php endif; ?>				
