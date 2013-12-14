@@ -12,20 +12,27 @@
 	<!-- shows reviews feed -->
 	<article>
 		
-		<!-- displays 'You reviewed' for own reviews, otherwise displays user's name -->
+		<!-- displays location name -->
+		<h3 class="h3"><?=$review['location']?> - <?=$review['city']?> <?=$review['state']?></h3>
+		
+		<!-- displays review content -->
+		<p class='postContent'><?=$review['review']?></p>
+		
+		<!-- display star rating -->
+		<h4 class=''h4> <?=$review['rating']?> stars out of 5</h4>
+		
+		<!-- displays 'Your review' for own reviews, otherwise displays user's name -->
 		<?php if($review['user_id'] == $user->user_id): ?>
-			<h3 class='h3'>You yapped:<h3>
+			<p class='reviewedBy'>Your Review<p>
 		<?php else: ?>
-			<h3 class='h3'><?=$review['first_name']?> <?=$review['last_name']?> yapped:</h3>
+			<p class='reviewedBy'>Submitted by: <?=$review['first_name']?> <?=$review['last_name']?></p>
 		<?php endif; ?>
 		
-			<!-- displays review content -->
-			<p class='postContent'><?=$review['content']?></p>
+		<!-- displays time review was created -->
+		<p class='datetime'>Created on: <time datetime='<?Time::display($review['created'],'Y-m-d G:i')?>'>
+		<?=Time::display($review['created'])?>
+		</time></p>
 		
-			<!-- displays time review was created -->
-			<p class='datetime'>Yapped on: <time datetime='<?Time::display($review['created'],'Y-m-d G:i')?>'>
-			<?=Time::display($review['created'])?>
-			</time></p>
 		
 		<!-- displays delete button on logged in user reviews -->
 		<?php if($review['user_id'] == $user->user_id): ?>
