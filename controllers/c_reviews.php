@@ -19,7 +19,7 @@ class reviews_controller extends base_controller {
 
 		// setup view
 		$this->template->content = View::instance('v_reviews_add');
-		$this->template->title   = "New Yap";
+		$this->template->title   = "New Review";
 		
 		// load js files
 		$client_files_body = Array(
