@@ -3,12 +3,27 @@ body {
 	margin-top: 130px;
 }
 
+
 /* layout */
 
 .navbar-inverse {
-	background-color: #3c3c3c;
-	
+	background-color: #3c3c3c;	
 }
+
+article {
+	margin-top: 25px;
+	padding: 15px;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cacaca;
+	border-radius: 4px;	
+}
+
+#results {
+	margin-top: 20px;
+}
+
 
 /* text */
 
@@ -45,6 +60,12 @@ h4 {
 	font-size: 12px;
 	font-weight: 600;
 	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.reviewedBy {
+	font-size: 12px;
+	font-weight: 600;
 }
 
 .postContent {
@@ -54,4 +75,13 @@ h4 {
 
 .error {
 	color: red;
+}
+
+/* images */
+
+.avatar {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cacaca;
+	margin: 20px 0px 0px;
 }
