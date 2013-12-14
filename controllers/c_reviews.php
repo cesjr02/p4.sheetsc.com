@@ -73,6 +73,10 @@ class reviews_controller extends base_controller {
 		$q = 'SELECT 
 			reviews.review_id,
 			reviews.review,
+			reviews.state,
+			reviews.city,
+			reviews.location,
+			reviews.rating,
 			reviews.created,
 			reviews.user_id AS review_user_id,
 			users_users.user_id AS follower_id,
