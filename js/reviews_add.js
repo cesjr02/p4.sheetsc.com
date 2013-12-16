@@ -9,6 +9,8 @@ var options = {
 		$('#results').html(response);
 		$('#review').val('');
 		$('#location').val('');
+		$('#city').val('');
+		$('#state').val('');
 		$('#backing2b').val('0');
 	}
 };
