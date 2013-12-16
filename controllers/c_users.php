@@ -21,6 +21,13 @@ class users_controller extends base_controller {
 
 		// set page title
 		$this->template->title = "Sign up";
+		
+		// load js files
+		$client_files_body = Array(
+			"/js/formvalidate.js"
+		);
+		
+		$this->template->client_files_body = Utils::load_client_files($client_files_body);
 
 		// render view
 		echo $this->template;
@@ -147,6 +154,13 @@ class users_controller extends base_controller {
 
 		// setup page title
 		$this->template->title   = "Login";
+		
+		// load js files
+		$client_files_body = Array(
+			"/js/formvalidate.js"
+		);
+		
+		$this->template->client_files_body = Utils::load_client_files($client_files_body);
 
 		// pass data to the view
 		$this->template->content->error = $error;

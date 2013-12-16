@@ -24,7 +24,8 @@ class reviews_controller extends base_controller {
 		// load js files
 		$client_files_body = Array(
 			"/js/jquery.form.js",
-			"/js/reviews_add.js"
+			"/js/reviews_add.js",
+			"/js/formvalidate.js"
 		);
 		
 		$this->template->client_files_body = Utils::load_client_files($client_files_body);
@@ -58,7 +59,7 @@ class reviews_controller extends base_controller {
 		echo $view;
 
 	} 
-
+	
 /*-------------------------------------------------------------------------------------------------
 	view all reviews
 -------------------------------------------------------------------------------------------------*/
