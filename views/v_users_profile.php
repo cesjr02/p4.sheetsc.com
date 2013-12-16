@@ -12,7 +12,7 @@
 		<form method='POST' enctype='multipart/form-data' action='/users/p_profile/'>
 		
 			<!-- displays user image if uploaded -->
-			<img class='avatar' src='/uploads/avatars/<?=$user->image ?>' alt='<?=$user->first_name . ' ' . $user->last_name ?>'><br />
+			<img class='thumbnail' src='/uploads/avatars/<?=$user->image ?>' alt='<?=$user->first_name . ' ' . $user->last_name ?>'><br />
 			<h4>Update profile picture:</h4>
 			<input type='file' name='file' id='file'><br>
 			
