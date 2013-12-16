@@ -1,4 +1,4 @@
-<form class="form-inline" method='POST' action='/users/p_login'>
+<form method='POST' action='/users/p_login'>
     <div class="form-group">
     	<label class="sr-only" for="loginemail">Email address</label>
     	<input type="email" name="email" class="form-control" id="loginemail" placeholder="Enter email" required>
