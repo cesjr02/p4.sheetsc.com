@@ -7,6 +7,7 @@
 				Click <a href='/reviews/users/'>here</a> to start following other users. 
 			</p>	
 		<?php endif; ?>
+		
 		<?php foreach($reviews as $review): ?>
 	
 	<!-- shows reviews feed -->
