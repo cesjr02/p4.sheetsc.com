@@ -24,13 +24,18 @@ article {
 	margin-top: 20px;
 }
 
+.reviewStyle p {
+	color: #952f2b;
+}
+
 
 /* text */
 
 .h1 {
+	margin-top: 0;
 	font-size: 45px;
 	font-weight: 300;
-	color: #8f0000;
+	color: #952f2b;
 }
 
 .h2 {
