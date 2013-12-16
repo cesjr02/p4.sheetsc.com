@@ -41,7 +41,7 @@
 					<span class='icon-bar'></span>
 				</button>
 				
-				<a href='#' class='navbar-brand'>Bloody Mary Blog</a>
+				<a href='/' class='navbar-brand'>Bloody Mary Blog</a>
 			</div>
 			
 			<div class='collapse navbar-collapse'>
