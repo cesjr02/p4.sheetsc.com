@@ -13,7 +13,7 @@ body {
 article {
 	margin-top: 25px;
 	padding: 15px;
-	background-color: #f5f5f5;
+	background-color: #f7f7f7;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #cacaca;
@@ -28,7 +28,7 @@ article {
 /* text */
 
 .h1 {
-	font-size: 63px;
+	font-size: 45px;
 	font-weight: 300;
 }
 
@@ -66,6 +66,8 @@ h4 {
 .reviewedBy {
 	font-size: 12px;
 	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .postContent {
@@ -75,8 +77,26 @@ h4 {
 
 .error {
 	color: red;
+	margin-top: 10px;
 }
 
+.location {
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	color: #7f7f7f;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.cityState {
+	text-align: center;
+	color: #7f7f7f;
+	margin-top: 0;
+	margin-bottom: 25px;
+	font-size: 14px;
+	font-weight: 300;
+}
 /* images */
 
 .avatar {
@@ -85,3 +105,4 @@ h4 {
 	border-color: #cacaca;
 	margin: 20px 0px 0px;
 }
+
