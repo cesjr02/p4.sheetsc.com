@@ -88,7 +88,7 @@
 	<!-- footer -->
 	<div class='navbar navbar-default navbar-fixed-bottom'>
 		<div class='container'>
-			<p class='navbar-text pull-right'>Bloody Mary Blog - Developed by CJ Sheets</p>
+			<p class='navbar-text pull-right'>Bloody Mary Central - Developed by CJ Sheets</p>
 		</div>	
 	</div>
 	
