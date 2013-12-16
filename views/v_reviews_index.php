@@ -11,19 +11,20 @@
 	
 	<!-- shows reviews feed -->
 	<article>
-		
+
 		<!-- displays location name -->
-		<h3 class="h3"><?=$review['location']?> - <?=$review['city']?> <?=$review['state']?></h3>
+		<h3 class="location"><?=$review['location']?></h3>
+		<h3 class="cityState"> <?=$review['city']?>, <?=$review['state']?></h3>
 		
 		<!-- displays review content -->
 		<p class='postContent'><?=$review['review']?></p>
 		
 		<!-- display star rating -->
-		<h4 class=''h4> <?=$review['rating']?> stars out of 5</h4>
+		<h4 class='h4'> Star Rating: <?=$review['rating']?> out of 5</h4>
 		
 		<!-- displays 'Your review' for own reviews, otherwise displays user's name -->
 		<?php if($review['user_id'] == $user->user_id): ?>
-			<p class='reviewedBy'>Your Review<p>
+			<p class='reviewedBy'>Your Review</p>
 		<?php else: ?>
 			<p class='reviewedBy'>Submitted by: <?=$review['first_name']?> <?=$review['last_name']?></p>
 		<?php endif; ?>
