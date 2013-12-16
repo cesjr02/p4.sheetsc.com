@@ -27,7 +27,7 @@
 		 
 		    <div class='form-group'>
 		    	<label class="sr-only" for="retype">Retype password</label>
-			    <input type='password' name='retype' id="retype" placeholder="Retype password" class='form-control'>
+			    <input type='password' name='retype' id="retype" placeholder="Retype password" class='form-control' data-validation="required" data-validation-error-msg="Please retype your password">
 		    </div>
 		
 		    <!-- checks to see if error isset. If so, echo specific error. -->		

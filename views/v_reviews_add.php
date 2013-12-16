@@ -6,7 +6,7 @@
 		<p><span class="label label-warning">All fields required</span></p>
 
 		<div class='form-group'>
-			<select  class='form-control' name="state" id="state"> 
+			<select class='form-control required' name="state" id="state"> 
 				<option value="" selected="selected">Select a State</option> 
 				<option value="AL">Alabama</option> 
 				<option value="AK">Alaska</option> 
@@ -72,11 +72,11 @@
 		
 		<div class='form-group'>
 			<!-- maxlength defined as 255 -->
-			<textarea maxlength='255' name='review' id='review' class='form-control' rows='3'  placeholder="Write review" data-validation='length' data-validation-length='50-255' data-validation-error-msg='Review must be (50-255 characters)' data-validation-help='Write a short review (50-255 characters)'></textarea>
+			<textarea maxlength='255' name='review' id='review' class='form-control' rows='3'  placeholder="Write review" data-validation='length' data-validation-length='20-255' data-validation-error-msg='Review must be (20-255 characters)' data-validation-help='Write a short review (20-255 characters)'></textarea>
 		</div>
 
 		<!-- star rating -->
-		<select id="backing2b" name="rating">
+		<select id="backing2b" name="rating" class="required">
 			<option value="0">0</option>
 			<option value="1">1</option>
 			<option value="2">2</option>
