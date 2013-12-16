@@ -24,7 +24,7 @@
 				</div>
 			<?php endif; ?>
 			
-			<input type='submit' name='submit' value='Update' class='btn btn-primary' user='Submit'>
+			<input type='submit' name='submit' value='Update' class='btn btn-default' user='Submit'>
 				
 		</form><br>
 	<hr>

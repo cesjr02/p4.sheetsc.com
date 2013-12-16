@@ -14,7 +14,7 @@
 			
 			<!-- if there exists a connection with this user, show a unfollow link -->
 			<? if(isset($connections[$contributor['user_id']])): ?>
-				<a href='/reviews/unfollow/<?=$contributor['user_id']?>'><input type='submit' value='Unfollow' class='btn btn-primary' ></a>
+				<a href='/reviews/unfollow/<?=$contributor['user_id']?>'><input type='submit' value='Unfollow' class='btn btn-default' ></a>
 				
 			<!-- otherwise, show the follow link -->
 			<? else: ?>

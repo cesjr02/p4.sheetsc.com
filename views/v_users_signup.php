@@ -38,7 +38,7 @@
 		    	</div>
 		    <?php endif; ?>  
 		    	
-		    <input type='submit' class='btn btn-primary' value='Submit' >
+		    <input type='submit' class='btn btn-default' value='Submit' >
 
 		</form>
 </div><!-- end of col -->
