@@ -1,6 +1,6 @@
 <div class='col-md-6 col-md-offset-3'>
+
 	<h2 class='h2'>User Reviews</h2>
-	
 		<!-- if review are empty link users to /reviews/users/ -->
 		<?php if(empty($reviews)): ?>	
 			<p>
@@ -9,16 +9,16 @@
 		<?php endif; ?>
 		
 		<?php foreach($reviews as $review): ?>
-	
 	<!-- shows reviews feed -->
 	<article>
-
 		<!-- displays location name -->
 		<h3 class="location"><?=$review['location']?></h3>
 		<h3 class="cityState"> <?=$review['city']?>, <?=$review['state']?></h3>
 		
-		<!-- displays review content -->
-		<p class='postContent'><?=$review['review']?></p>
+		<div class="reviewStyle">
+			<!-- displays review content -->
+			<p class='postContent'><?=$review['review']?></p>
+		</div>
 		
 		<!-- display star rating if submitted, else say no rating submitted -->
 		<?php if($review['rating'] == 0): ?>
@@ -45,7 +45,6 @@
 			<a href='/reviews/delete/<?=$review['review_id']?>'><button type='button' class='btn btn-default'>Delete Review</button></a>
 		<?php else: ?>
 		<?php endif; ?>
-	
 	</article>
 	
 		<?php endforeach; ?>
