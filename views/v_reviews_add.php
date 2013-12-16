@@ -2,9 +2,8 @@
 	<!-- form for adding a new post -->
 	<form method='POST' action='/reviews/p_add'>
 		
-		<!-- maxlength defined as 255 -->
 		<h2 class='h2'>Post your Bloody Mary Review</h2>
-		<select  class='form-control' name="state"> 
+		<select  class='form-control' name="state" id="state"> 
 			<option value="" selected="selected">Select a State</option> 
 			<option value="AL">Alabama</option> 
 			<option value="AK">Alaska</option> 
@@ -65,6 +64,7 @@
 		
 		<input type="text" name="location" id="location" class="form-control" placeholder="Enter Bar or Restaurant name" required>
 		<br>
+		<!-- maxlength defined as 255 -->
 		<textarea maxlength='255' name='review' id='review' class='form-control' rows='3'  placeholder="Write review" required></textarea>
 		<br>
 		
