@@ -20,8 +20,12 @@
 		<!-- displays review content -->
 		<p class='postContent'><?=$review['review']?></p>
 		
-		<!-- display star rating -->
-		<h4 class='h4'> Star Rating: <?=$review['rating']?> out of 5</h4>
+		<!-- display star rating if submitted, else say no rating submitted -->
+		<?php if($review['rating'] == 0): ?>
+			<h4 class="h4">No rating submitted</h4>
+		<?php else: ?>
+			<h4 class='h4'> Star Rating: <?=$review['rating']?> out of 5</h4>
+		<?php endif; ?>
 		
 		<!-- displays 'Your review' for own reviews, otherwise displays user's name -->
 		<?php if($review['user_id'] == $user->user_id): ?>
