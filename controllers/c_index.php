@@ -23,7 +23,7 @@ class index_controller extends base_controller {
 		// $this->template->content->signupContent = View::instance('v_users_signup');
 
 		// now set the <title> tag
-		$this->template->title = "Bloody Mary Blog";
+		$this->template->title = "Bloody Mary Central";
 	
 		// CSS/JS includes
 			/*
