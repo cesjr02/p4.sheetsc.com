@@ -41,7 +41,7 @@
 					<span class='icon-bar'></span>
 				</button>
 				
-				<a href='/' class='navbar-brand'>Bloody Mary Blog</a>
+				<a href='/' class='navbar-brand'>Bloody Mary Central</a>
 			</div>
 			
 			<div class='collapse navbar-collapse'>
@@ -97,10 +97,19 @@
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src='https://code.jquery.com/jquery.js'></script>
+	
+	<!-- jQuery UI -->
+	<script src='http://code.jquery.com/ui/1.10.3/jquery-ui.js'></script>
+	
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src='/js/bootstrap.min.js'></script>
+	
 	<!-- rate it js -->
 	<script src='/js/jquery.rateit.min.js'></script>
+	
+	<!-- js for form validation -->
+	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.27/jquery.form-validator.min.js'></script>
+	<script src="http://jquery.bassistance.de/validate/additional-methods.js"></script>
 	
 	<?php if(isset($client_files_body)) echo $client_files_body; ?>
 </body>
