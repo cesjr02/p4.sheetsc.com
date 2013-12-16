@@ -110,7 +110,7 @@ class reviews_controller extends base_controller {
 		
 		// set up the View
 		$this->template->content = View::instance("v_reviews_users");
-		$this->template->title   = "Follow Users";
+		$this->template->title   = "Contributors";
 		
 		// build the query to get all users
 		$q = "SELECT *
