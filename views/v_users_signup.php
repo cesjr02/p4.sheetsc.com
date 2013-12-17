@@ -17,7 +17,7 @@
 		
 			<div class='form-group'>
 				<label class="sr-only" for="email">Email address</label>
-				<input type='text' name='email' id="email" placeholder="Enter email" id="email" class='form-control' data-validation="email" value='<?php if(isset($_POST['email'])) echo $_POST['email']?>'>
+				<input type='text' name='email' id="email" placeholder="Enter email" class='form-control' data-validation="email" value='<?php if(isset($_POST['email'])) echo $_POST['email']?>'>
 			</div>
 
 			<div class='form-group'>
