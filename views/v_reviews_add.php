@@ -2,13 +2,13 @@
 	<!-- form for adding a new post -->
 	<form role="form" id="myForm" method='POST' action='/reviews/p_add'>
 		
-		<h2 class='h2'>Post your Bloody Mary Review</h2>
+		<h2 class='h2'>Share your Review</h2>
 		<p><span class="label label-warning">All fields required</span></p>
 
 		<div class='form-group'>
 			<!-- dropdown menu for selecting state -->
 			<select class='form-control required' name="state" id="state"> 
-				<option value="" selected="selected">Select a State</option> 
+				<option value="" selected="selected">Select a state</option> 
 				<option value="AL">Alabama</option> 
 				<option value="AK">Alaska</option> 
 				<option value="AZ">Arizona</option> 
@@ -68,7 +68,7 @@
 		</div>
 		
 		<div class='form-group'>
-			<input type="text" name="location" id="location" class="form-control" placeholder="Enter Bar or Restaurant name" data-validation='length' data-validation-length='3-17' data-validation-error-msg='Your location must have (3-17 characters)' data-validation-help='Enter your location (3-17 characters)'>
+			<input type="text" name="location" id="location" class="form-control" placeholder="Enter name of establishment" data-validation='length' data-validation-length='3-17' data-validation-error-msg='Establishment must have (3-17 characters)' data-validation-help='Enter name of establishment (3-17 characters)'>
 		</div>
 		
 		<div class='form-group'>

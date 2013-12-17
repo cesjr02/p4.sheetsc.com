@@ -1,7 +1,7 @@
 <!-- list of contributors to follow/unfollow -->
 <div class='col-md-8'>
 
-	<h2 class='h2'>List of contributors</h2>
+	<h2 class='h2'>Contributors</h2>
 	
 	<p>Choose to follow or unfollow from the list of contributors below.</p>
 	

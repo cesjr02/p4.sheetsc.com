@@ -2,6 +2,7 @@
 <div class='col-md-6 col-md-offset-3'>
 
 	<h2 class='h2'>User Reviews</h2>
+	<p class="p">Check out what your fellow connoisseurs are saying.</p>
 		<!-- if review are empty link users to /reviews/users/ -->
 		<?php if(empty($reviews)): ?>	
 			<p>

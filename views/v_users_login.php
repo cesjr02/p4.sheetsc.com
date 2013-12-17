@@ -15,7 +15,7 @@
 	<!-- shows error if login failed -->		
 	<?php if(isset($error)): ?>
 		<div class='alert alert-danger'>
-			Oh no, signin failed. Please double check your email and password.
+			Oh no, sign in failed. Please double check your email and password.
 		</div>
 		<br>
 	<?php endif; ?>
