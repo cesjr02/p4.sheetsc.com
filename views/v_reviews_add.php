@@ -68,7 +68,7 @@
 		</div>
 		
 		<div class='form-group'>
-			<input type="text" name="location" id="location" class="form-control" placeholder="Enter name of establishment" data-validation='length' data-validation-length='3-17' data-validation-error-msg='Establishment must have (3-17 characters)' data-validation-help='Enter name of establishment (3-17 characters)'>
+			<input type="text" name="location" id="location" class="form-control" placeholder="Enter name of establishment" data-validation='length' data-validation-length='3-30' data-validation-error-msg='Establishment must have (3-30 characters)' data-validation-help='Enter name of establishment (3-30 characters)'>
 		</div>
 		
 		<div class='form-group'>
