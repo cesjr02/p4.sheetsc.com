@@ -1,9 +1,17 @@
 <!-- div for welcome info and login -->
 <div class='col-md-4'>
 	<h1 class='h1'>Bloody Mary Central</h1>
-		<?php if($user): ?><h2 class='h2'>Hello, <?php echo $user->first_name; ?></h2>
+		<?php if($user): ?><h2 class='h2'>Hello, <?php echo $user->first_name; ?>.</h2>
 	<p class='p'>Click <?php echo "<a href='/users/profile/'>here</a>"; ?> to go to your profile.</p>
-		<?php else: ?><?=$loginContent;?>
+		<?php else: ?>
+		<p class="p">
+			So, you consider yourself a Bloody Mary connoisseur. You know the best spots in town to grab and enjoy an amazing Bloody whether it’s morning, afternoon or night, and you pride yourself on knowing what makes a good Bloody that tingles your taste buds.
+		</p>
+		<p class="p">
+			Do what any true Bloody Mary fan would do — share your wealth of knowledge.
+		</p>
+			<?=$loginContent;?>
+		<p class="p">Not signed up yet? Click <a href="/users/signup/">here</a> to register.</p>
 		<?php endif; ?>					
 </div>
 
