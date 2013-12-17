@@ -10,6 +10,7 @@ Users of the app can also see important user information on their profile page, 
 Feature list:
 
 • Users can register/login/logout/delete account.
+• App sends welcome email to new users
 • Review the drinks they try and store location information; city, state, bar/restaurant.
 • Reviewers can use a star rating system to rate their drink from 0 (no rating) to 5 stars.
 • This app uses the fully responsive framework of Twitter Bootstrap
