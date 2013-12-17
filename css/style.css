@@ -24,10 +24,6 @@ article {
 	margin-top: 20px;
 }
 
-.reviewStyle p {
-	color: #952f2b;
-}
-
 
 /* text */
 
@@ -103,6 +99,12 @@ h4 {
 	font-size: 14px;
 	font-weight: 300;
 }
+
+.reviewStyle p {
+	color: #952f2b;
+}
+
+
 /* images */
 
 .avatar {
