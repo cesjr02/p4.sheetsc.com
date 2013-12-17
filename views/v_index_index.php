@@ -10,6 +10,7 @@
 		<p class="p">
 			Do what any true Bloody Mary fan would do — share your wealth of knowledge.
 		</p>
+		<br>
 			<?=$loginContent;?>
 		<p class="p">Not signed up yet? Click <a href="/users/signup/">here</a> to register.</p>
 		<?php endif; ?>					
