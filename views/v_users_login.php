@@ -1,3 +1,4 @@
+<!-- form for user login -->
 <form method='POST' action='/users/p_login'>
 	<div class="form-group">
 		<label class="sr-only" for="loginemail">Email address</label>

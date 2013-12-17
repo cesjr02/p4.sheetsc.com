@@ -41,6 +41,7 @@
 					<span class='icon-bar'></span>
 				</button>
 				
+				<!-- navbar brand -->
 				<a href='/' class='navbar-brand'>Bloody Mary Central</a>
 			</div>
 			

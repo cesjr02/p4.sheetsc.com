@@ -1,3 +1,4 @@
+<!-- list of contributors to follow/unfollow -->
 <div class='col-md-8'>
 
 	<h2 class='h2'>List of contributors</h2>

@@ -1,3 +1,4 @@
+<!-- display user profile -->
 <div class='col-md-8'>
 	<h2 class='h2'>My Profile</h2>
 	

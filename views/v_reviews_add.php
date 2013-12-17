@@ -6,6 +6,7 @@
 		<p><span class="label label-warning">All fields required</span></p>
 
 		<div class='form-group'>
+			<!-- dropdown menu for selecting state -->
 			<select class='form-control required' name="state" id="state"> 
 				<option value="" selected="selected">Select a State</option> 
 				<option value="AL">Alabama</option> 
