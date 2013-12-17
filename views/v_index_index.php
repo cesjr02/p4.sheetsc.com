@@ -41,4 +41,4 @@
 			<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>
 	</div>	
-</div><! -- end of col -->
+</div><!-- end of col -->
