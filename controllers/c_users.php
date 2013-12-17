@@ -127,7 +127,7 @@ class users_controller extends base_controller {
 			// build a multi-dimension array of recipients of this email
 			$to[]    = Array("name" => $_POST['first_name'], "email" => $_POST['email']);
 			$from    = Array("name" => APP_NAME, "email" => APP_EMAIL);
-			$subject = "Welcome to the Bloody Mary Blog";
+			$subject = "Welcome to Bloody Mary Central";
 			$body = View::instance('e_users_welcome');
 
 			// Send email
