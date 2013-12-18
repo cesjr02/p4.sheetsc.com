@@ -15,5 +15,6 @@ Feature list:
 • Reviewers can use a star rating system to rate their drink from 0 (no rating) to 5 stars.
 • This app uses the fully responsive framework of Twitter Bootstrap
 • Input fields are validated by javascript, shows errors and helper text to aid the user.
+• Reviews are added via an Ajax call.
 
 Input validation is managed by a jQuery Form Validator plugin.
